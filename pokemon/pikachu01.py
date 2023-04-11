@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 import requests
+import json
 
 # define base URL
 POKEURL = "http://pokeapi.co/api/v2/pokemon/"
@@ -18,6 +19,9 @@ def main():
         # Display the value associated with 'name'
         #print(poke["name"])
         print(poke.get("name"))
+        #p_list = poke.get("name")
+        j_format = json.dumps(poke.get("name"))
+        print(j_format)
 
     print(f"Total number of Pokemon returned: {len(pokemon['results'])}")
 
