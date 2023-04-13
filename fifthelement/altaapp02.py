@@ -11,7 +11,7 @@ from django.http import HttpResponse
 DEBUG = True                            # verbose output and prevent config of
                                         # ALLOWED_HOSTS variable
 
-SECRET_KEY = 'Youcandanc3youcanjiv3'    # required for a django app
+SECRET_KEY = 'blahblah'    # required for a django app
 
 ROOT_URLCONF = __name__                 # The path to the URIs (called URLs here) with the 'views' in
                                         # the project. The var __name__ means "look in this file"
