@@ -1,4 +1,12 @@
 #!/usr/bin/env python3
+"""
+some docs
+List of keywords https://www.sqlite.org/lang_keywords.html
+from Jason Trespel to Everyone:    12:43  PM
+Keyword index https://www.sqlite.org/keyword_index.html
+
+"""
+
 
 import sqlite3
 
